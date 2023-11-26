@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.users{
+  border: 1px solid gray;
+  max-width: 400px;
+  margin: 25px auto;
+  padding: 15px;
+}
+.user-item  {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.user-form{
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  display: flex ;
+  flex-direction: column;
+  padding: 10px;
+}
+.user-form input{
+  height: 28px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.user-form button{
+  padding: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
